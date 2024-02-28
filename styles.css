@@ -114,6 +114,11 @@ html {
     color: #eee;
 }
 
+.footer p {
+    font-size: 17px;
+    font-weight: 200;
+}
+
 hr {
     border-color: #00985A;
 }
@@ -397,6 +402,11 @@ ul li:hover {
 }
 
 @media (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
     .box {
         display: block;
         padding: 10px;
@@ -409,7 +419,7 @@ ul li:hover {
     }
 
     .banner img {
-        margin-top: -60px;
+        margin-top: -30px;
     }
 
     .banner p {
@@ -440,7 +450,7 @@ ul li:hover {
 
     .footer {
         margin-top: 30px;
-        padding-top: 350px;
+        padding-top: 500px;
         padding-bottom: 10px;
         background: #00985A;
     }
