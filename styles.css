@@ -332,6 +332,16 @@ label,
     margin-bottom: 15px;
 }
 
+.half-input-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.half-input-table td:first-of-type {
+    border-right: 10px solid #00985A;
+    width: 50%;
+}
+
 .pay-btn {
     border: none;
     background: #eee;
